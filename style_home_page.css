@@ -1,0 +1,105 @@
+.footer {
+  /* position: fixed; */
+  /* padding-top: 200px; */
+  padding-bottom: 0px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  /* margin-bottom:-50px; */
+  /* padding: 0 0 30px 0; */
+  /* left: 0;
+  bottom: 0; */
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: left;
+}
+.carousel-inner {
+  width: 200px;
+  height: 400px;
+}
+.carousel-item {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  object-fit: cover !important;
+  height: 100%;
+}
+body {
+  background-image: url("user/images/car_rental1.png"); /* path of the image used */
+  /* background-color: #cccccc; Used if the image is unavailable */
+  height: 600px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff00;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #c8c8c8;
+}
+
+.topnav a {
+  float: left;
+  color: #bdc3df;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgba(0, 0, 0, 0.432);
+}
+.topnav {
+  background-color: rgb(19, 18, 18);
+  overflow: hidden;
+}
+/*.active {
+  background-color: #4caf50;
+}*/
+.welcome {
+  margin-top: 5px;
+  color: #bdc3df;
+}
+
+.card-title {
+  color: #435bc5;
+  opacity: 1;
+}
+.card {
+  opacity: 0.6;
+  background-color: #bdc3df;
+}
+.card-text {
+  opacity: 1;
+}
+
+.footer p {
+  padding-top: 10px;
+  margin-left: 40px;
+  padding-bottom: 22px;
+  /* padding-bottom: 10px; */
+}
